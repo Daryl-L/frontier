@@ -33,7 +33,7 @@ rustc-hex = {version = "2.1.0", default-features = false}
 sc-client-api = {version = "4.0.0-dev", git = "https://github.com/paritytech/substrate", tag = "devhub/latest"}
 sc-network = {version = "0.10.0-dev", git = "https://github.com/paritytech/substrate", tag = "devhub/latest"}
 sc-rpc = {version = "4.0.0-dev", git = "https://github.com/paritytech/substrate", tag = "devhub/latest"}
-sc-service = {version = "0.10.0-dev", git = "https://github.com/paritytech/substrate", rev = "67f28cdba85c362da17909c69c19952e3ef931c7"}
+sc-service = {version = "0.10.0-dev", git = "https://github.com/paritytech/substrate", tag = "devhub/latest"}
 sc-transaction-pool = {version = "4.0.0-dev", git = "https://github.com/paritytech/substrate", tag = "devhub/latest"}
 sc-transaction-pool-api = {version = "4.0.0-dev", git = "https://github.com/paritytech/substrate", tag = "devhub/latest"}
 sha3 = "0.8"
