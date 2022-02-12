@@ -18,7 +18,7 @@ evm = {version = "0.33.1", default-features = false, features = ["with-codec"]}
 evm-gasometer = {version = "0.33.0", default-features = false}
 evm-runtime = {version = "0.33.0", default-features = false}
 fp-evm = {version = "3.0.0-dev", default-features = false, path = "../../primitives/evm"}
-frame-benchmarking = {version = "4.0.0-dev", git = "https://github.com/paritytech/substrate", default-features = false, optional = true}
+frame-benchmarking = {version = "4.0.0-dev", git = "https://github.com/paritytech/substrate", default-features = false, optional = true, tag = "devhub/latest"}
 frame-support = {version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate", tag = "devhub/latest"}
 frame-system = {version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate", tag = "devhub/latest"}
 hex = {version = "0.4", default-features = false}
