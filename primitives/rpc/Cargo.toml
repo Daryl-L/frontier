@@ -12,11 +12,11 @@ ethereum = {version = "0.11.1", default-features = false, features = ["with-code
 ethereum-types = {version = "0.12", default-features = false}
 fp-evm = {version = "3.0.0-dev", default-features = false, path = "../../primitives/evm"}
 scale-info = {version = "1.0.0", default-features = false, features = ["derive"]}
-sp-api = {version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate"}
+sp-api = {version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate", tag = "devhub/latest"}
 sp-core = {version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate", tag = "devhub/latest"}
-sp-io = {version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate"}
-sp-runtime = {version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate"}
-sp-std = {version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate"}
+sp-io = {version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate", tag = "devhub/latest"}
+sp-runtime = {version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate", tag = "devhub/latest"}
+sp-std = {version = "4.0.0-dev", default-features = false, git = "https://github.com/paritytech/substrate", tag = "devhub/latest"}
 
 [features]
 default = ["std"]
